@@ -1,0 +1,8 @@
+.news-item {
+    position: relative;
+}
+
+.news-title {
+    position: absolute;
+    bottom: 0px;
+}

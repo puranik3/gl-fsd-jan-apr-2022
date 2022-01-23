@@ -19,6 +19,7 @@
     bottom: 0px;
     padding: 0.5em;
     text-align: center;
+    color: initial; /* initial value for a property sets it to its default value */
     background-color: rgba( 128, 128, 128, 0.6 );
 }
 

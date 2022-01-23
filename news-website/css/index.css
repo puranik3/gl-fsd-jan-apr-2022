@@ -1,8 +1,19 @@
 .news-item {
     position: relative;
+    display: inline-block;
+    width: 240px;
+}
+
+.news-item-image {
+    width: 100%;
 }
 
 .news-title {
+    display: none;
     position: absolute;
     bottom: 0px;
+}
+
+.news-item:hover .news-title {
+    display: block;
 }

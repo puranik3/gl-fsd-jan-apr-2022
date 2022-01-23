@@ -1,8 +1,17 @@
+.news-gallery {
+    /* do not allow .news-item children to wrap over to the next line */
+    white-space: nowrap;
+    
+    /* add a scrollbar if .news-item children go outside the .news-gallery */
+    overflow: auto;
+}
 /* The .news-item does not resize when we resize the screen (fixed width) */
 .news-item {
     position: relative;
     display: inline-block;
-    width: 240px;
+    width: 300px;
+    height: 160px;
+    overflow: hidden;
     border: 1px solid green;
     border-radius: 4px;
 }

@@ -1,0 +1,68 @@
+.banner {
+    padding: 1em;
+    text-align: center;
+    background-color: rgb(75, 80, 75);
+    color: white;
+}
+
+.page-title {
+    display: inline;
+}
+
+.form-links {
+    float: right;
+}
+
+.form-links a,
+.form-links button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgba( 220, 220, 220, 0.6 );
+    color: white;
+    text-decoration: none;
+    
+    /* hand icon appears when we hover */
+    cursor: pointer;
+}
+
+.form-links a:hover,
+.form-links button:hover
+ {
+    background-color: rgba( 48, 48, 48, 0.8 );
+}
+
+.main-menu {
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+    background-color: rgb( 119, 127, 119 );
+}
+
+.news-links,
+.login-register {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.login-register {
+    float: right;
+}
+
+.news-links li,
+.login-register li {
+    display: inline-block;
+}
+
+.main-menu a {
+    display: inline-block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-menu a:hover {
+    background-color: rgba( 48, 48, 48, 0.8 );
+}

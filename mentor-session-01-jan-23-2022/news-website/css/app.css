@@ -1,0 +1,8 @@
+* {
+    /* width settings will include space for padding and border */
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 4em;
+}

@@ -1,19 +1,29 @@
+/* The .news-item does not resize when we resize the screen (fixed width) */
 .news-item {
     position: relative;
     display: inline-block;
     width: 240px;
+    border: 1px solid green;
+    border-radius: 4px;
 }
 
+/* let the .news-item-image be as wide as the .news-item parent */
 .news-item-image {
     width: 100%;
+    border-radius: 4px;
 }
 
 .news-title {
     display: none;
     position: absolute;
     bottom: 0px;
+    padding: 0.5em;
+    text-align: center;
+    background-color: rgba( 128, 128, 128, 0.6 );
 }
 
+/* Show the .news-title when the .news-item is hovered upon */
 .news-item:hover .news-title {
     display: block;
+    width: 100%;
 }

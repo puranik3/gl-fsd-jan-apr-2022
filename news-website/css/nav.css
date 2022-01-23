@@ -28,3 +28,34 @@
 .form-links button:hover {
     background-color: rgba( 48, 48, 48, 0.8 );
 }
+
+.main-menu {
+    background-color: rgb( 119, 127, 119 );
+}
+
+.news-links,
+.login-register {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.login-register {
+    float: right;
+}
+
+.news-links li,
+.login-register li {
+    display: inline-block;
+}
+
+.main-menu a {
+    display: inline-block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-menu a:hover {
+    background-color: rgba( 48, 48, 48, 0.8 );
+}

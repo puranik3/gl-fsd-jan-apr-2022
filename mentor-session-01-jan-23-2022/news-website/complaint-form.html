@@ -46,14 +46,49 @@
 
         <main class="container">
             <section class="complaint-form-section">
-                <h1>Complaint Form</h1>
-                <form>
+                <header>
+                    <h1>Complaint Form</h1>
+                    <div>
+                        <div class="instruction-title">Read below instructions before proceeding:</div>
+                        <div>Make sure you fill all the fileds where * is provided</div>
+                    </div>
+                </header>
+                <form action="success.html" method="post">
                     <div class="form-group">
-                        <label for="name">
+                        <label for="name" id="name">
                             Name
                             <span class="required">*</span>
                         </label>
-                        <input type="text" />
+                        <input type="text" id="name" name="name" />
+                    </div>
+                    <fieldset class="form-group form-group-checkbox">
+                        <legend>
+                            Choose the issue type
+                            <span class="required">*</span>
+                        </legend>
+                        <div>
+                            <div>Check atleast one box without fail</div>
+                            <label>
+                                <input type="checkbox" name="issue-type" value="wrong news" />
+                                Wrong News
+                            </label>
+                            <label>
+                                <input type="checkbox" name="issue-type" value="paper not given" />
+                                Paper not given
+                            </label>
+                            <label>
+                                <input type="checkbox" name="issue-type" value="paper boy misbehaviour" />
+                                Paper Boy Misbehaviour
+                            </label>
+                            <label>
+                                <input type="checkbox" name="issue-type" value="payment portal issue" />
+                                Payment portal issue
+                            </label>
+                        </div>
+                    </fieldset>
+                    <div class="form-group">
+                        <button type="reset">Reset</button>
+                        <button type="submit">Submit</button>
                     </div>
                 </form>
             </section>

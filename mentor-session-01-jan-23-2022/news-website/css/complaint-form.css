@@ -10,16 +10,41 @@ body {
     margin: 3em auto;
 }
 
+.complaint-form-section header {
+    padding: 1.5em;
+    margin-bottom: 1em;
+    background-color: rgb( 192, 149, 233 );
+}
+
+.complaint-form-section .instruction-title {
+    color: navy;
+    font-weight: bold;
+}
+
 .form-group {
     padding: 2em;
     border: 1px solid black;
     border-radius: 4px;
+    margin-bottom: 1em;
     background-color: white;
 }
 
 .form-group label,
 .form-group input {
     display: block;
+}
+
+.form-group-checkbox input {
+    display: inline;
+}
+
+.form-group input[type="checkbox"],
+.form-group input[type="radio"] {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 0.25em;
+    vertical-align: bottom;
 }
 
 .form-group label .required {

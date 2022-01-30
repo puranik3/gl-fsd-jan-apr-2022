@@ -39,13 +39,20 @@
                 position: relative;
             }
 
+            /* we need to hide this initially */
             .sub-menu {
+                display: none;
                 position: absolute;
                 top: 35px; /* from the top of the .item-with-sub-menu element */
                 left: 0px;
                 white-space: nowrap;
                 padding: 1em;
                 background-color: lightgray;
+            }
+
+            /* modify the selector so that it selects the sub-menu only when it is within the ..item-with-sub-menu item that is being hovered upon */
+            .item-with-sub-menu:hover .sub-menu {
+                display: block;
             }
         </style>
     </head>
